@@ -9,7 +9,7 @@ import UIKit
 
 class EcounterChangeAddressCell:UITableViewCell{
     
-    @IBOutlet weak var lbCellTitle: UILabel!e12e12e21e12e21e21sacascascascacac Cuoc Song nay
+    @IBOutlet weak var lbCellTitle: UILabel!e12e12e21e12e21e21sacascascascacac Cuoc Song nay - Commit from web git 2
     @IBOutlet weak var lbHouseType: UILabel!jdjasndjnsajdnajs
 
     @IBOutlet weak var vApartmentOption: EcounterHouseOptionSubView!
