@@ -9,8 +9,7 @@ import UIKit
 
 class EcounterChangeAddressCell:UITableViewCell{
 
-    @IBOutlet weak var lbCellTitle: UILabel!e12e12e21e12e21e21sacascascascacac DKM may commit from pc
-    
+    @IBOutlet weak var lbCellTitle: UILabel!e12e12e21e12e21e21sacascascascacac DKM may commit from pc Bo sung pc
     comit cho vui
 
     @IBOutlet weak var lbHouseType: UILabel!
