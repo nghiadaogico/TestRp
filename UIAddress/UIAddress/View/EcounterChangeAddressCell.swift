@@ -101,6 +101,18 @@ class EcounterChangeAddressCell:UITableViewCell{
         vStreetNumber.lbTitle.text = "Số nhà"
 
 
+        commit from web
+        
+                commit from web
+
+                commit from web
+
+                commit from web
+
+                commit from web
+
+        
+        
         vContactNumber.lbTitle.textColor = UIColor(red: 0.463, green: 0.463, blue: 0.463, alpha: 1)
         vContactNumber.lbTitle.font = UIFont(name: "Inter-Regular", size: 14)
         vStreetNumber.lbTitle.text = "Tên Liên Hệ Khi Triển Khai"
