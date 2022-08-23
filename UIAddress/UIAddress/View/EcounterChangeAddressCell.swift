@@ -10,7 +10,7 @@ import UIKit
 class EcounterChangeAddressCell:UITableViewCell{
     
 
-    @IBOutlet weak var lbCellTitle: UILabel!
+    @IBOutlet weak var lbCellTitle: UILabel! 13123555
     @IBOutlet weak var lbHouseType: UILabel!
     
     @IBOutlet weak var vNormalHouseOption: EcounterHouseOptionSubView!
