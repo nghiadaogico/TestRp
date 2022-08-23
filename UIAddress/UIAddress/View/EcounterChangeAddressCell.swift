@@ -11,7 +11,7 @@ class EcounterChangeAddressCell:UITableViewCell{
 
     @IBOutlet weak var lbCellTitle: UILabel!e12e12e21e12e21e21sacascascascacac DKM may commit from pc Bo sung pc
     comit cho vui Bo Sung web
-
+    Chi la pc ma thoi
 
     @IBOutlet weak var lbHouseType: UILabel!
     
@@ -37,6 +37,8 @@ class EcounterChangeAddressCell:UITableViewCell{
         super.awakeFromNib()
         configUI()
     }
+    
+    Khong co web
     
     commit from pc
     
