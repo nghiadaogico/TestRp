@@ -10,7 +10,7 @@ import UIKit
 class EcounterChangeAddressCell:UITableViewCell{
 
 
-    Chi la pc ma thoi
+    Chi la pc ma thoi Lan cuoi ma thoi
     Tat ca la web
     PC 4155666
 
@@ -116,8 +116,19 @@ class EcounterChangeAddressCell:UITableViewCell{
                 commit from web
 
                 commit from web
+    
+                        commit from web
+                commit from web
+                commit from web
+                commit from web
+                commit from web
+                commit from web
+                commit from web
+                commit from web
+                commit from web
 
             chi la pc
+
         
         vContactNumber.lbTitle.textColor = UIColor(red: 0.463, green: 0.463, blue: 0.463, alpha: 1)
         vContactNumber.lbTitle.font = UIFont(name: "Inter-Regular", size: 14)
