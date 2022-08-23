@@ -12,7 +12,7 @@ class EcounterChangeAddressCell:UITableViewCell{
 
     Chi la pc ma thoi Lan cuoi ma thoi
     Tat ca la web
-    PC 4155666
+    PC 4155666 - Pc 15666--00
 
     @IBOutlet weak var lbHouseType: UILabel!
     
