@@ -11,7 +11,7 @@ class EcounterChangeAddressCell:UITableViewCell{
     
 
 
-    @IBOutlet weak var lbCellTitle: UILabel!e12e12e21e12e21e21sacascascascacac DKM may
+    @IBOutlet weak var lbCellTitle: UILabel!e12e12e21e12e21e21sacascascascacac DKM may commit from pc
     @IBOutlet weak var lbHouseType: UILabel!
     
     @IBOutlet weak var vNormalHouseOption: EcounterHouseOptionSubView!
@@ -35,6 +35,10 @@ class EcounterChangeAddressCell:UITableViewCell{
         super.awakeFromNib()
         configUI()
     }
+    
+    commit from pc
+    
+    commit from pc
     
     func configUI(){
         
@@ -115,3 +119,9 @@ class EcounterChangeAddressCell:UITableViewCell{
     
     
 }
+
+commit from pc
+
+commit from pc
+
+commit from pc
