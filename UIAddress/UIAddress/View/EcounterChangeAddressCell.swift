@@ -12,6 +12,7 @@ class EcounterChangeAddressCell:UITableViewCell{
     @IBOutlet weak var lbCellTitle: UILabel!e12e12e21e12e21e21sacascascascacac DKM may commit from pc
     
     comit cho vui
+
     @IBOutlet weak var lbHouseType: UILabel!
     
     @IBOutlet weak var vNormalHouseOption: EcounterHouseOptionSubView!
@@ -103,6 +104,18 @@ class EcounterChangeAddressCell:UITableViewCell{
         vStreetNumber.lbTitle.text = "Số nhà"
 
 
+        commit from web
+        
+                commit from web
+
+                commit from web
+
+                commit from web
+
+                commit from web
+
+        
+        
         vContactNumber.lbTitle.textColor = UIColor(red: 0.463, green: 0.463, blue: 0.463, alpha: 1)
         vContactNumber.lbTitle.font = UIFont(name: "Inter-Regular", size: 14)
         vStreetNumber.lbTitle.text = "Tên Liên Hệ Khi Triển Khai"
@@ -121,7 +134,7 @@ class EcounterChangeAddressCell:UITableViewCell{
     
 }
 
-commit from pc
+commit from web
 
 commit from pc pc
 
