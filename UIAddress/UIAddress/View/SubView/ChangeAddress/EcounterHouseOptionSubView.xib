@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EcounterHouseOptionSubView" customModule="UIAddress" customModuleProvider="target">
+            <connections>
+                <outlet property="lbInfo" destination="3Zd-6l-FPD" id="626-iR-Rxe"/>
+                <outlet property="vTickMark" destination="7vN-Vj-fXU" id="9hx-Ai-YNy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VKf-OY-IY6">
+            <rect key="frame" x="0.0" y="0.0" width="119" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nhà Phố" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zd-6l-FPD">
+                    <rect key="frame" x="16" y="14" width="87" height="22"/>
+                    <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="0.0"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7vN-Vj-fXU">
+                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_left" translatesAutoresizingMaskIntoConstraints="NO" id="hIq-Yr-DCU">
+                            <rect key="frame" x="0.0" y="-1" width="30" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_tick" translatesAutoresizingMaskIntoConstraints="NO" id="ZZn-MK-9ag">
+                            <rect key="frame" x="5" y="6" width="9.5" height="6.5"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ZZn-MK-9ag" firstAttribute="top" secondItem="7vN-Vj-fXU" secondAttribute="top" constant="5.7800000000000002" id="NEP-FD-wZ8"/>
+                        <constraint firstAttribute="width" constant="30" id="OL3-9C-HBh"/>
+                        <constraint firstAttribute="trailing" secondItem="ZZn-MK-9ag" secondAttribute="trailing" constant="15.48" id="UP9-Cz-6bs"/>
+                        <constraint firstItem="ZZn-MK-9ag" firstAttribute="leading" secondItem="7vN-Vj-fXU" secondAttribute="leading" constant="4.8399999999999999" id="Vb3-OK-uvY"/>
+                        <constraint firstAttribute="height" constant="30" id="fZG-Dt-rg0"/>
+                        <constraint firstAttribute="bottom" secondItem="ZZn-MK-9ag" secondAttribute="bottom" constant="17.329999999999998" id="wrt-qf-r8b"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="7vN-Vj-fXU" firstAttribute="leading" secondItem="VKf-OY-IY6" secondAttribute="leading" id="83P-is-WVM"/>
+                <constraint firstAttribute="trailing" secondItem="3Zd-6l-FPD" secondAttribute="trailing" constant="16" id="H0O-wz-CGY"/>
+                <constraint firstItem="3Zd-6l-FPD" firstAttribute="leading" secondItem="VKf-OY-IY6" secondAttribute="leading" constant="16" id="Lo9-dF-xZc"/>
+                <constraint firstItem="7vN-Vj-fXU" firstAttribute="top" secondItem="VKf-OY-IY6" secondAttribute="top" id="lU4-Di-cT7"/>
+                <constraint firstItem="3Zd-6l-FPD" firstAttribute="top" secondItem="VKf-OY-IY6" secondAttribute="top" constant="14" id="z2J-ia-mvI"/>
+                <constraint firstAttribute="bottom" secondItem="3Zd-6l-FPD" secondAttribute="bottom" constant="14" id="zy9-Jb-vzW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="207.97101449275365" y="365.625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_left" width="30" height="30"/>
+        <image name="ic_tick" width="10" height="7"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
