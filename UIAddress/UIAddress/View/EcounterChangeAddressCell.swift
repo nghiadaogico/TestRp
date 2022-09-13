@@ -10,7 +10,9 @@ import UIKit
 class EcounterChangeAddressCell:UITableViewCell{
 
 
-    Chi la pc ma thoi Lan cuoi ma thoi -- Web di tam day - pc cung vay
+    Dm thoi
+    cuoc song vcl lam
+    chan
     Tat ca la web Pc 1 line
 
     PC 4155666 -- Lai la web day - Pc 15666--00
